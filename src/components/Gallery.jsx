@@ -1,6 +1,15 @@
 import GalleryCard from './GalleryCard'
 
 export default function Gallery() {
+  const galleryItems = [
+    {
+      uri:"/images/galaxy.webp",
+      altText:"an AI generated galaxy",
+      caption:"A galaxy",
+      citation:"Microsoft Copilot"
+    }
+  ]
+
   return (
     <div className="gallery">
       <GalleryCard
